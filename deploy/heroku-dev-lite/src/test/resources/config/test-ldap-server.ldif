@@ -17,7 +17,7 @@ cn: Usuario12 pruebas
 sn: Usuario12
 userPrincipalName: user12@diputaciolleida.cat
 sAMAccountName: user12
-userPassword: bd35283fe8fcfd77d7c05a8bf2adb85c773281927e12c9829c72a9462092f7c4
+userPassword: {SHA}bd35283fe8fcfd77d7c05a8bf2adb85c773281927e12c9829c72a9462092f7c4
 
 dn: sAMAccountName=nositmunuser,ou=people,dc=diputaciolleida,dc=es
 objectclass: top
@@ -27,4 +27,4 @@ objectclass: inetOrgPerson
 cn: NoSitmunUser pruebas
 sn: NoSitmunUser
 sAMAccountName: nositmunuser
-userPassword: 4c207a52cd543bf829891947f4527165007ecd030319db9c9bb98e01d3c968e9
+userPassword: {SHA}4c207a52cd543bf829891947f4527165007ecd030319db9c9bb98e01d3c968e9

@@ -10,14 +10,14 @@
 test:
   ldap:
     embedded:
-      base-dn: dc=springframework,dc=org
+      base-dn: dc=diputaciolleida,dc=es
       ldif: classpath:config/test-ldap-server.ldif
 
 security:
   authentication:
     ldap:
       host: 
-      base_dn: dc=springframework,dc=org
-      user_dn_pattern: uid={0}
+      base_dn: dc=diputaciolleida,dc=es
+      user_dn_pattern: sAMAccountName={0}
       user_ldap:
       password_ldap:

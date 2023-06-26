@@ -1,24 +1,30 @@
-dn: ou=people,dc=springframework,dc=org
+dn: ou=people,dc=diputaciolleida,dc=es
 objectclass: top
 objectclass: organizationalUnit
 ou: people
 
-dn: uid=user12,ou=people,dc=springframework,dc=org
+dn: ou=Departamento,dc=diputaciolleida,dc=es
+objectclass: top
+objectclass: organizationalUnit
+ou: Departamento
+
+dn: cn=Nombre Apellido1 Apellido2,ou=Departamento,dc=diputaciolleida,dc=es
 objectclass: top
 objectclass: person
 objectclass: organizationalPerson
 objectclass: inetOrgPerson
 cn: Usuario12 pruebas
 sn: Usuario12
-uid: user12
+userPrincipalName: user12@diputaciolleida.cat
+sAMAccountName: user12
 userPassword: bd35283fe8fcfd77d7c05a8bf2adb85c773281927e12c9829c72a9462092f7c4
 
-dn: uid=nositmunuser,ou=people,dc=springframework,dc=org
+dn: sAMAccountName=nositmunuser,ou=people,dc=diputaciolleida,dc=es
 objectclass: top
 objectclass: person
 objectclass: organizationalPerson
 objectclass: inetOrgPerson
 cn: NoSitmunUser pruebas
 sn: NoSitmunUser
-uid: nositmunuser
+sAMAccountName: nositmunuser
 userPassword: 4c207a52cd543bf829891947f4527165007ecd030319db9c9bb98e01d3c968e9
